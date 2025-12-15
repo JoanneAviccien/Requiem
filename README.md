@@ -378,7 +378,7 @@ CAPACITY ANALYSIS:
 ```
 <div align="center">
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 ![Copyright](https://img.shields.io/badge/©-2024%20Requiem%20Project-lightgrey)
 
 </div>
