@@ -12,15 +12,15 @@
 
 </div>
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
-- [✨ Features](#-features)
-- [🚀 Quick Start](#-quick-start)
-- [📖 Language Syntax](#-language-syntax)
-- [🔍 Error Handling](#-error-handling)
-- [🏗️ Architecture](#-architecture)
-- [📊 Example](#-example)
+- [Features](#-features)
+- [Quick Start](#-quick-start)
+- [Language Syntax](#-language-syntax)
+- [Error Handling](#-error-handling)
+- [Architecture](#-architecture)
+- [Example](#-example)
 
 ## Overview
 
@@ -34,16 +34,16 @@ Requiem V2 is a domain-specific language (DSL) designed for software project man
 
 </div>
 
-## ✨ Features
+## Features
 
 <div align="center">
 
-![Features](https://img.shields.io/badge/📋-Feature%20Definition-blue)
-![Release Planning](https://img.shields.io/badge/📅-Release%20Planning-green)
-![MoSCoW](https://img.shields.io/badge/🎯-MoSCoW%20Methodology-purple)
-![Priority Calculation](https://img.shields.io/badge/⚡-Auto%20Priority%20Scoring-orange)
-![Dependency Management](https://img.shields.io/badge/🔗-Dependency%20Tracking-cyan)
-![Error Reporting](https://img.shields.io/badge/🛡️-Robust%20Error%20Handling-red)
+![Features](https://img.shields.io/badge/Feature%20Definition-blue)
+![Release Planning](https://img.shields.io/badge/Release%20Planning-green)
+![MoSCoW](https://img.shields.io/badge/MoSCoW%20Methodology-purple)
+![Priority Calculation](https://img.shields.io/badge/Auto%20Priority%20Scoring-orange)
+![Dependency Management](https://img.shields.io/badge/Dependency%20Tracking-cyan)
+![Error Reporting](https://img.shields.io/badge/Robust%20Error%20Handling-red)
 
 </div>
 
@@ -55,7 +55,7 @@ Requiem V2 is a domain-specific language (DSL) designed for software project man
 - **Comprehensive Validation**: Syntax and semantic error checking
 - **AST Generation**: Abstract Syntax Tree for programmatic analysis
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -67,29 +67,7 @@ Requiem V2 is a domain-specific language (DSL) designed for software project man
 
 </div>
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/requiem-v2.git
-cd requiem-v2
-
-# Build the project
-mvn clean compile
-
-# Run an example
-java -jar target/Requiem.jar examples/sample.rq
-```
-
-### Installation
-
-```bash
-# Download the JAR file
-wget https://github.com/yourusername/requiem-v2/releases/latest/download/Requiem.jar
-
-# Run Requiem on your planning file
-java -jar Requiem.jar your-plan.rq
-```
-
-## 📖 Language Syntax
+## Language Syntax
 
 ### Feature Declaration
 
@@ -148,14 +126,14 @@ release Q4_2023(targetDate: 15-12-2023,
 | `could`  | Desirable but not necessary | Medium |
 | `wont`   | Out of scope for this release | Lowest |
 
-## 🔍 Error Handling
+## Error Handling
 
 <div align="center">
 
-![Lexer Errors](https://img.shields.io/badge/🔤-Lexer%20Errors%20Caught-red)
-![Parser Errors](https://img.shields.io/badge/📐-Parser%20Errors%20Caught-orange)
-![Semantic Errors](https://img.shields.io/badge/🧠-Semantic%20Errors%20Caught-yellow)
-![Validation](https://img.shields.io/badge/✅-100%25%20Validated-brightgreen)
+![Lexer Errors](https://img.shields.io/badge/Lexer%20Errors%20Caught-red)
+![Parser Errors](https://img.shields.io/badge/Parser%20Errors%20Caught-orange)
+![Semantic Errors](https://img.shields.io/badge/Semantic%20Errors%20Caught-yellow)
+![Validation](https://img.shields.io/badge/100%25%20Validated-brightgreen)
 
 </div>
 
@@ -190,15 +168,15 @@ Requiem V2 Semantic Errors:
 ==================================================
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 <div align="center">
 
-![Architecture](https://img.shields.io/badge/🏗️-ANTLR%20Pipeline-blueviolet)
-![Lexer](https://img.shields.io/badge/🔠-Lexer%20Phase-blue)
-![Parser](https://img.shields.io/badge/📐-Parser%20Phase-green)
-![Visitor](https://img.shields.io/badge/👣-Visitor%20Pattern-orange)
-![AST](https://img.shields.io/badge/🌳-AST%20Generation-success)
+![Architecture](https://img.shields.io/badge/ANTLR%20Pipeline-blueviolet)
+![Lexer](https://img.shields.io/badge/Lexer%20Phase-blue)
+![Parser](https://img.shields.io/badge/Parser%20Phase-green)
+![Visitor](https://img.shields.io/badge/Visitor%20Pattern-orange)
+![AST](https://img.shields.io/badge/AST%20Generation-success)
 
 </div>
 
@@ -230,15 +208,15 @@ Requiem Workflow:
 
 <div align="center">
 
-![Generated](https://img.shields.io/badge/⚡-ANTLR%20Generated-important)
-![Lexer](https://img.shields.io/badge/🔤-RequiemV2Lexer.java-blue)
-![Parser](https://img.shields.io/badge/📐-RequiemV2Parser.java-green)
-![Visitor](https://img.shields.io/badge/👣-RequiemV2Visitor.java-orange)
-![Listener](https://img.shields.io/badge/👂-RequiemV2Listener.java-purple)
+![Generated](https://img.shields.io/badge/ANTLR%20Generated-important)
+![Lexer](https://img.shields.io/badge/RequiemV2Lexer.java-blue)
+![Parser](https://img.shields.io/badge/RequiemV2Parser.java-green)
+![Visitor](https://img.shields.io/badge/RequiemV2Visitor.java-orange)
+![Listener](https://img.shields.io/badge/RequiemV2Listener.java-purple)
 
 </div>
 
-## 📊 Example
+## Example
 
 ### Complete Example File
 
@@ -389,13 +367,13 @@ This project is licensed under the GPLv3 License - see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built with ❤️ and** ![ANTLR](https://img.shields.io/badge/ANTLR-4.13.2-blue)
+**Built with** ![ANTLR](https://img.shields.io/badge/ANTLR-4.13.2-blue)
 
-*If you find Requiem useful, please give it a ⭐ on GitHub!*
+*If you find Requiem useful, please give it a star on GitHub!*
 
 </div>
 
-## 🔗 Useful Links
+## Useful Links
 
 - [ANTLR Official Website](https://www.antlr.org/)
 - [ANTLR GitHub Repository](https://github.com/antlr/antlr4)
