@@ -1,0 +1,172 @@
+# Mobile Legends Balance Patch Priorities dengan Dependencies
+# File: mlbb-balance-patch-deps.requiem
+
+/*
+  Prioritas balance changes berdasarkan data win rate, pick rate, dan community feedback
+  Effort diukur dalam engineering days untuk implementasi dan testing
+  Dependencies menunjukkan tim/komponen yang terlibat
+*/
+
+# Balance Team Dependencies
+feature BALANCE_TEAM(
+  title: "Core Balance Team",
+  value: 100,
+  effort: 0,
+  risk: 0
+);
+
+feature ANIMATION_TEAM(
+  title: "Animation & VFX Team",
+  value: 100,
+  effort: 0,
+  risk: 0
+);
+
+feature UI_TEAM(
+  title: "User Interface Team",
+  value: 100,
+  effort: 0,
+  risk: 0
+);
+
+feature QA_TEAM(
+  title: "Quality Assurance Team",
+  value: 100,
+  effort: 0,
+  risk: 0
+);
+
+feature SERVER_TEAM(
+  title: "Server Infrastructure Team",
+  value: 100,
+  effort: 0,
+  risk: 0
+);
+
+# Hero Balance Features
+feature BAL-001(
+  title: "Nerf: Karrie True Damage Adjustments",
+  value: 90,
+  effort: 10,
+  risk: 30,
+  dependencies: BALANCE_TEAM, QA_TEAM
+);
+
+feature BAL-002(
+  title: "Buff: Minotaur Rage Generation",
+  value: 85,
+  effort: 15,
+  risk: 25,
+  dependencies: BALANCE_TEAM, ANIMATION_TEAM, QA_TEAM
+);
+
+feature BAL-003(
+  title: "Rework: Vexana Ultimate Mechanic",
+  value: 75,
+  effort: 40,
+  risk: 60,
+  dependencies: BALANCE_TEAM, ANIMATION_TEAM, SERVER_TEAM, QA_TEAM
+);
+
+# Item Balance Features
+feature BAL-004(
+  title: "Item Adjustment: Wind of Nature Cooldown",
+  value: 95,
+  effort: 8,
+  risk: 15,
+  dependencies: BALANCE_TEAM, UI_TEAM
+);
+
+feature BAL-005(
+  title: "New Item: Magic Penetration for Tanks",
+  value: 70,
+  effort: 35,
+  risk: 50,
+  dependencies: BALANCE_TEAM, ANIMATION_TEAM, UI_TEAM, QA_TEAM
+);
+
+# Game System Features
+feature BAL-006(
+  title: "Jungle Creep HP Scaling",
+  value: 80,
+  effort: 25,
+  risk: 20,
+  dependencies: BALANCE_TEAM, SERVER_TEAM, QA_TEAM
+);
+
+feature BAL-007(
+  title: "Turtle & Lord Spawn Timer UI",
+  value: 95,
+  effort: 12,
+  risk: 10,
+  dependencies: UI_TEAM, BALANCE_TEAM, QA_TEAM
+);
+
+# Technical Infrastructure
+feature INFRA-001(
+  title: "Live Balance Hotfix System",
+  value: 95,
+  effort: 50,
+  risk: 40,
+  dependencies: SERVER_TEAM, BALANCE_TEAM, QA_TEAM
+);
+
+# Release Plan dengan Prioritas dan Dependencies
+release BP_1_8_42(
+  targetDate: 15-1-2026,
+  teamCapacity: 50,
+  currentProgress: 20
+) {
+  # HIGH PRIORITY - Critical fixes
+  must {
+    assign BAL-001, priorityScore: 9.5;    # Karrie dominant di Mythic+
+    assign BAL-004, priorityScore: 9.3;    # Wind of Nature OP
+    assign BAL-007, priorityScore: 9.0;    # QoL improvement
+  };
+  
+  # MEDIUM PRIORITY - Important improvements
+  should {
+    assign BAL-002, priorityScore: 7.5;    # Minotaur underperforming
+    assign BAL-006, priorityScore: 7.0;    # Jungle pacing
+    assign INFRA-001, priorityScore: 8.0;  # Infrastructure improvement
+  };
+  
+  # LOW PRIORITY - If time permits
+  could {
+    assign BAL-003, priorityScore: 6.0;    # Vexana rework
+  };
+  
+  # DEFERRED - For future patches
+  wont {
+    assign BAL-005, priorityScore: 3.0;    # New item needs more testing
+  };
+};
+
+# Additional Release untuk Hotfix Emergency
+release HOTFIX_1_8_41(
+  targetDate: 5-1-2026,
+  teamCapacity: 35,
+  currentProgress: 80
+) {
+  must {
+    assign BAL-001, priorityScore: 10.0;   # Emergency Karrie fix
+    assign BAL-004, priorityScore: 9.8;    # Critical item fix
+  };
+  
+  should {
+    # No medium priority for hotfix
+  };
+  
+  could {
+    # No low priority for hotfix
+  };
+  
+  wont {
+    assign BAL-002;
+    assign BAL-003;
+    assign BAL-005;
+    assign BAL-006;
+    assign BAL-007;
+    assign INFRA-001;
+  };
+};
