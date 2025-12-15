@@ -1,0 +1,42 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\domin8r\IdeaProjects\Requiem\out\artifacts\Requiem_jar\Requiem.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\domin8r\IdeaProjects\Requiem\out\artifacts\Requiem_jar\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = 
+Substitute:	PATH = C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\WiX Toolset v6.0\bin\;C:\Users\domin8r\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\domin8r\AppData\Local\Programs\Python\Python314\;C:\Users\domin8r\AppData\Local\Programs\Python\Launcher\;C:\Users\domin8r\.local\bin;C:\Users\domin8r\AppData\Local\Microsoft\WindowsApps;C:\Users\domin8r\AppData\Local\Python\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.5\bin;C:\dogninggen\jdk-25.0.1\bin;;C:\dogninggen\jdk-25.0.1\bin
+JRE paths:	;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaLibrary;C:\Program Files (x86)\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\Common Files\Sony Shared\FeliCaNFCLibrary;C:\Program Files\dotnet\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\cursor\resources\app\bin;C:\Program Files\Git\cmd;C:\Program Files\WiX Toolset v6.0\bin\;C:\Users\domin8r\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\domin8r\AppData\Local\Programs\Python\Python314\;C:\Users\domin8r\AppData\Local\Programs\Python\Launcher\;C:\Users\domin8r\.local\bin;C:\Users\domin8r\AppData\Local\Microsoft\WindowsApps;C:\Users\domin8r\AppData\Local\Python\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.5\bin;C:\dogninggen\jdk-25.0.1\bin;;C:\dogninggen\jdk-25.0.1\bin
+Check launcher:	C:\Program Files\ImageMagick-7.1.2-Q16-HDRI\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\system32\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\Wbem\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\WindowsPowerShell\v1.0\bin\javaw.exe (not found)
+Check launcher:	C:\Windows\System32\OpenSSH\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Sony Shared\FeliCaLibrary\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Sony Shared\FeliCaLibrary\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files (x86)\Common Files\Sony Shared\FeliCaNFCLibrary\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Common Files\Sony Shared\FeliCaNFCLibrary\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\dotnet\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Microsoft VS Code\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\cursor\resources\app\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\Git\cmd\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\WiX Toolset v6.0\bin\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\AppData\Local\Programs\Python\Python314\Scripts\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\AppData\Local\Programs\Python\Python314\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\AppData\Local\Programs\Python\Launcher\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\.local\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\AppData\Local\Microsoft\WindowsApps\bin\javaw.exe (not found)
+Check launcher:	C:\Users\domin8r\AppData\Local\Python\bin\javaw.exe (not found)
+Check launcher:	C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.2.5\bin\javaw.exe (not found)
+Check launcher:	C:\dogninggen\jdk-25.0.1\bin\javaw.exe (OK)
+Version string: 1.025.000_001 / 64-Bit (OK)
+Launcher:	C:\dogninggen\jdk-25.0.1\bin\javaw.exe
+Launcher args:	-jar "C:\Users\domin8r\IdeaProjects\Requiem\out\artifacts\Requiem_jar\Requiem.exe"
+Args length:	82/32768 chars
+Exit code:	0
