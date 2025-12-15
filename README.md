@@ -63,7 +63,6 @@ Requiem V2 is a domain-specific language (DSL) designed for software project man
 
 ![Java](https://img.shields.io/badge/Java-17%2B-007396?logo=java&logoColor=white)
 ![ANTLR](https://img.shields.io/badge/ANTLR-4.13.2-FF5722?logo=&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-3.8%2B-C71A36?logo=apache-maven&logoColor=white)
 
 </div>
 
